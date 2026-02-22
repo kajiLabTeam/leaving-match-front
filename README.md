@@ -1,4 +1,5 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+これは [Next.js](https://nextjs.org) を用いたプロジェクトです. 
+[`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) パッケージを用いて作成されています.
 
 ## Getting Started
 
