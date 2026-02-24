@@ -16,8 +16,7 @@ https://leaving-match.vercel.app/
 
 3. .env.local ファイルをディレクトリ直下に配置する
 
-4. 
-```
+4.  ```
 npm run dev
 ```
 
