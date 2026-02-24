@@ -78,14 +78,15 @@ leaving-match-front
 │  ├─ pages/api/      # lib/ をラップするAPIハンドラー
 │  ├─ styles/         # CSSファイル
 │  ├─ types/          # APIレスポンスや内部データの型定義
-│  └─ utils/          # ロジック系ユーティリティ
-├─ .env.local         # 環境変数（引き継ぎ用）
+│  └─ utils/          # ロジック系関数
+├─ .env.local         # 環境変数（引き継ぎ）
 └─ README.md
 ```
 
 - 各ファイルの詳細はesa (https://kjlb.esa.io/posts/9425) を確認
 
+
 ## その他
 
 audio in this system Created By ondoku3.com
-音声合成機能には「音読さん」を利用しています．
+合成音声の作成には「音読さん」を利用しています．
