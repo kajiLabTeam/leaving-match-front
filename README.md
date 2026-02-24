@@ -79,6 +79,8 @@ leaving-match-front
 │  ├─ types/          # APIレスポンスや内部データの型定義
 │  └─ utils/          # ロジック系関数
 ├─ .env.local         # 環境変数（引き継ぎ）
+├─ package.json
+├─ package-lock.json
 └─ README.md
 ```
 
