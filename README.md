@@ -62,21 +62,21 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## ファイル構成
 leaving-match-front<br>
- ├─ .github/workflows/ # 定期実行するGitHub Actionsの設定<br>
- ├─ public<br>
- │      ├─ image.png # 背景画像ファイル<br>
- │      └─ sounds # 通知音声のファイル<br>
- ├─ src/<br>
- │      ├─ app/ # ルーティングおよび画面遷移制御<br>
- │      ├─ components/ # 実際に表示する画面を返すファイル<br>
- │      ├─ jobs/ # 定期実行されるファイル<br>
- │      ├─ lib/ # 外部（本プロジェクトのバックエンド含む）APIとの通信<br>
- │      ├─ pages/api/ # lib/ のAPI呼び出し処理をラップするAPIハンドラー<br>
- │      ├─ styles/ # CSS ファイル<br>
- │      ├─ types/ # API から取得するデータや内部で扱う際の型<br>
- │      └─ utils/ # ロジックファイル<br>
- ├─ .env.local (引き継ぎ)<br>
- └─ README.md<br>
+ 　├─ .github/workflows/ # 定期実行するGitHub Actionsの設定<br>
+　 ├─ public<br>
+　 │      ├─ image.png # 背景画像ファイル<br>
+　 │      └─ sounds # 通知音声のファイル<br>
+　 ├─ src/<br>
+　 │      ├─ app/ # ルーティングおよび画面遷移制御<br>
+ 　│      ├─ components/ # 実際に表示する画面を返すファイル<br>
+ 　│      ├─ jobs/ # 定期実行されるファイル<br>
+　 │      ├─ lib/ # 外部（本プロジェクトのバックエンド含む）APIとの通信<br>
+　 │      ├─ pages/api/ # lib/ のAPI呼び出し処理をラップするAPIハンドラー<br>
+　 │      ├─ styles/ # CSS ファイル<br>
+ 　│      ├─ types/ # API から取得するデータや内部で扱う際の型<br>
+　 │      └─ utils/ # ロジックファイル<br>
+　 ├─ .env.local (引き継ぎ)<br>
+　 └─ README.md<br>
 
 - 各ファイルの詳細はesa (https://kjlb.esa.io/posts/9425) を確認
 
