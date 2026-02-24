@@ -87,5 +87,5 @@ leaving-match-front
 
 ## その他
 
-audio in this system Created By ondoku3.com
+audio in this system Created By ondoku3.com <br>
 合成音声の作成には「音読さん」を利用しています．
