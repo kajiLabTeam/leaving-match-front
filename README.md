@@ -21,7 +21,7 @@ https://leaving-match.vercel.app/
 npm run dev
 ```
 
-5. http://localhost:3000 で開く
+5. http://localhost:3000 で開く<br>
 app/page.tsx が表示されます
 
 <!-- First, run the development server: -->
