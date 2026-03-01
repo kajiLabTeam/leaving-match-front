@@ -61,6 +61,10 @@ export default async function runJob() {
     }
 
     const bustime = await findNearBuses(average);
+    if (bustime.nearestTime == 0 && bustime.nextTime == 0) {
+        return { status: "skip", reason: "bus is not running" };
+    }
+
     const bustimeId = await postBustime(recommended.RecommendedId, bustime).catch((e) => {
         console.error("postBustime error:", e);
         throw e;
